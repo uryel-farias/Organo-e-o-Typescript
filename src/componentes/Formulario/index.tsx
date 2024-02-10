@@ -9,8 +9,6 @@ interface formularioProps {
     aoColaboradorCadastrado: (colaborador: IColaborador) => void 
     times: string[]
 
-
-
 }
 
 const Formulario = (props: formularioProps) => {
